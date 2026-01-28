@@ -1,0 +1,18 @@
+{
+    "target": "esp32s3",
+    "builds": [
+        {
+            "name": "shenzhen-es3c28p",
+            "sdkconfig_append": [
+                "CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y",
+                "CONFIG_PARTITION_TABLE_CUSTOM_FILENAME=\"partitions/v2/16m.csv\"",
+                "CONFIG_SPIRAM=y",
+                "CONFIG_SPIRAM_SPEED_80M=y",
+                "CONFIG_SPIRAM_USE_ALLOC=y",
+                "CONFIG_SPIRAM_USE_CAPS_ALLOC=y",
+                "CONFIG_SPIRAM_USE_MALLOC=y",
+                "CONFIG_SPIRAM_USE_EXEC=y"
+            ]
+        }
+    ]
+}

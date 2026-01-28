@@ -434,6 +434,9 @@ choice BOARD_TYPE
     config BOARD_TYPE_SPOTPEAR_ESP32_S3_1_54_MUMA
         bool "Spotpear ESP32-S3-1.54-MUMA"
         depends on IDF_TARGET_ESP32S3
+    config BOARD_TYPE_SHENZHEN_ES3C28P
+        bool "Shenzhen ES3C28P (深圳ES3C28P开发板)"
+        depends on IDF_TARGET_ESP32S3
     config BOARD_TYPE_SPOTPEAR_ESP32_S3_1_28_BOX
         bool "Spotpear ESP32-S3-1.28-BOX"
         depends on IDF_TARGET_ESP32S3
