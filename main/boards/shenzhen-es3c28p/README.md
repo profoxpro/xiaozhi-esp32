@@ -56,6 +56,9 @@ This directory contains board support for the Shenzhen ES3C28P development board
 ### RGB LED
 - Control: GPIO_42
 
+### Boot Button
+- GPIO: GPIO_0
+
 ## Features
 
 - ✅ 2.8" LCD display with touch support
