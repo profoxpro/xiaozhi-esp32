@@ -216,7 +216,9 @@ public:
             AUDIO_I2S_GPIO_DOUT,
             AUDIO_I2S_GPIO_DIN,
             AUDIO_CODEC_PA_PIN,
-            AUDIO_CODEC_ES8311_ADDR);
+            AUDIO_CODEC_ES8311_ADDR,
+            true,   // use_mclk
+            true);  // pa_inverted = true (active low amplifier)
         return &audio_codec;
     }
 
