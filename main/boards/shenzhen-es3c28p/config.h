@@ -15,8 +15,8 @@
 #define AUDIO_I2S_GPIO_MCLK  GPIO_NUM_4
 #define AUDIO_I2S_GPIO_WS    GPIO_NUM_7
 #define AUDIO_I2S_GPIO_BCLK  GPIO_NUM_5
-#define AUDIO_I2S_GPIO_DIN   GPIO_NUM_8
-#define AUDIO_I2S_GPIO_DOUT  GPIO_NUM_6
+#define AUDIO_I2S_GPIO_DIN   GPIO_NUM_6   // Исправлено: вход с GPIO 6
+#define AUDIO_I2S_GPIO_DOUT  GPIO_NUM_8   // Исправлено: выход на GPIO 8
 
 #define AUDIO_CODEC_PA_PIN       GPIO_NUM_1
 #define AUDIO_CODEC_I2C_SDA_PIN  GPIO_NUM_16
